@@ -8,11 +8,11 @@ export const Form = () => {
   return (
     <form className={S.form}>
           <Label texto='Seu nome aqui:'/> 
-            <input type="text" name="" id="" placeholder='Digite seu nome' className={S.input} />
+            <input type="text" name="" id="" className={S.input} />
             <Label texto='E-mail:'/>
-            <input type="email" name="" id="" placeholder='Digite seu email' className={S.input} />
+            <input type="email" name="" id="" className={S.input} />
             <Label texto='CPF:'/>
-            <input type="number" name="" id="" placeholder='Digite seu CPF' className={S.input} />
+            <input type="number" name="" id="" className={S.input} />
             <div className={S.radioBtn}>
                 <div>
                     <input type="radio" name="" id="" />
@@ -23,7 +23,7 @@ export const Form = () => {
                         <label htmlFor="">Feminino</label>
                     </div>
             </div>
-            <Button texto='Enviar' />
+            <Button style={S.button} texto='Enviar' />
     </form>
   )
 }

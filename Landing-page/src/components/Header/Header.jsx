@@ -11,10 +11,10 @@ export const Header = () => {
             <p>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite! </p>
         </div>
         <div className={S.divBtn}>
-            <Button texto='Conheça a linux'/>
-            <Button texto='Ajude o algorítimo'/>
-            <Button texto='Seus profutos'/>
-            <Button texto='Compartilhe'/>
+            <Button style={S.button} texto='Conheça a Linx'/>
+            <Button style={S.button} texto='Ajude o algorítimo'/>
+            <Button style={S.button} texto='Seus profutos'/>
+            <Button style={S.button} texto='Compartilhe'/>
         </div>
     </header>
   )

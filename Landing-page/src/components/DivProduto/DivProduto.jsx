@@ -10,7 +10,7 @@ export const DivProduto = () => {
     <p>De: R$23,99</p>
     <h4><strong>Por: R$19,99</strong></h4>
     <p>ou 2x de R$9,99</p>
-    <Button texto='Comprar'/>
+    <Button style={S.button} texto='Comprar'/>
     </div> 
     )
 }   
