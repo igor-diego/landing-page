@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  margin: auto;
+  gap: 65px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input {
+  width: 340px;
+  height: 30px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+.divForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.divButton {
+  margin: auto;
+}
+
+.Button {
+  font-size: 16px;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  color: #888888;
+  height: 39px;
+  width: 340px;
+  margin: 50px 0px 50px -190px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
