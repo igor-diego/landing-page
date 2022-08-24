@@ -12,7 +12,8 @@ export const DivForm = () => {
         </div>
         <div className={S.divFom}>
           <Label texto='E-mail' />
-          <input className={S.Input}  type="email" />
+          <input className={S.Input}  type="email" pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$' 
+ />
           <div>
             <div className={S.divButton}><Button style={S.Button} texto='Enviar agora' /></div>
         </div>
