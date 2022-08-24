@@ -10,8 +10,8 @@ export const Form = () => {
           <Label texto='Seu nome aqui:'/> 
             <input type="text" name="" id="" className={S.input} />
             <Label texto='E-mail:'/>
-            <input type="email" name="" id="" className={S.input} />
-            <Label texto='CPF:'/>
+            <input type="email" pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$'  className={S.input} />
+            <Label texto='CPF:' pattern='^[0-9]{11}$'/>
             <input type="number" name="" id="" className={S.input} />
             <div className={S.radioBtn}>
                 <div>

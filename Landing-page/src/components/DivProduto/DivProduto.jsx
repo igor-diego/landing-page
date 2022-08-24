@@ -1,16 +1,19 @@
-import React from 'react'
-import { Button } from '../Button/Button'
-import S from './DivProduto.module.css'
-export const DivProduto = () => {
+import React from "react";
+import { Button } from "../Button/Button";
+import S from "./DivProduto.module.css";
+export const DivProduto = ({ imagem, nome, desc, de, por, ou }) => {
   return (
     <div className={S.div}>
-    <img src="" alt="" className={S.img}/>
-    <h4>nome do produto</h4>
-    <p>Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
-    <p>De: R$23,99</p>
-    <h4><strong>Por: R$19,99</strong></h4>
-    <p>ou 2x de R$9,99</p>
-    <Button style={S.button} texto='Comprar'/>
-    </div> 
-    )
-}   
+      <img src={imagem} alt="" className={S.img} />
+      <h4>{nome}</h4>
+      <p>{desc}</p>
+      <p>De R$: {de}</p>
+      <h4>
+        Por: {por}
+        <strong></strong>
+      </h4>
+      <p>Ou 2x {ou}</p>
+      <Button style={S.button} texto="Comprar" />
+    </div>
+  );
+};
